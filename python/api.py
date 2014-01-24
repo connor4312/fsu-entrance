@@ -34,13 +34,13 @@ elif sys.argv[0] == 'locate':
 	json_data = open('../source.json')
 	data = json.load(json_data)
 
-	parts = sys.argv[1].split('.');
+	parts = [int(i) for i in sys.argv[1].split('.')]
 	score = (16777216 * parts[0]) + (65536 * parts[1]) + (256 * parts[2]) + parts[3] # This is algorithim from the MaxMind docs
 
 	for item in data:
-		parts = item['first_ip'].split('.')
+		parts = [int(i) for i in item['first_ip'].split('.')]
 		nscore1 = (16777216 * parts[0]) + (65536 * parts[1]) + (256 * parts[2]) + parts[3]
-		parts = item['last_ip'].split('.')
+		parts = [int(i) for i in item['last_ip'].split('.')]
 		nscore2 = (16777216 * parts[0]) + (65536 * parts[1]) + (256 * parts[2]) + parts[3]
 
 		if score >= nscore1 and score <= nscore2:
