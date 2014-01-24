@@ -10,8 +10,8 @@ if sys.argv[0] == 'list':
 	data = json.load(json_data)
 
 	for item in data:
-		if (item['country'] != sys.argv[1]):
-			continue;
+		if item['country'] != sys.argv[1]:
+			continue
 
 		parts = [int(i) for i in item['first_ip'].split('.')]
 		nscore1 = (16777216 * parts[0]) + (65536 * parts[1]) + (256 * parts[2]) + parts[3]
@@ -44,7 +44,7 @@ elif sys.argv[0] == 'locate':
 		nscore2 = (16777216 * parts[0]) + (65536 * parts[1]) + (256 * parts[2]) + parts[3]
 
 		if score >= nscore1 and score <= nscore2:
-			print(item);
+			print(item)
 			sys.exit(0)
 
 	print('No matches found :S')
@@ -58,8 +58,8 @@ elif sys.argv[0] == 'entries':
 	
 
 else:
-	print('Commands: entries, locate [ip], list [country]');
+	print('Commands: entries, locate [ip], list [country]')
 	
 
 
-print("\n");
+print("\n")
