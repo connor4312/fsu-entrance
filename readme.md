@@ -8,6 +8,8 @@ Each of these allow you to:
  * Geolocate an IP to its country
  * Retrieve and list the IPs assigned to each country
 
+If one doesn't exist in your preferred language, feel free to write one! Put in a PR containing your ugly code, and send the "good" code privately to a member of FSU.
+
 Now, all this code works, but is intentionally ugly and unreadable. Your task is to take one of these projects - whatever language you feel most comfortable with - and turn it into a nice and readable API. Bonus points for implementing unit testing or additional nifty features.
 
 Your application must expose the same external interface as the original application (same commands and arguments), and must be functional.
