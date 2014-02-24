@@ -12,6 +12,6 @@ If one doesn't exist in your preferred language, feel free to write one! Put in 
 
 Now, all this code works, but is intentionally ugly and unreadable. Your task is to take one of these projects - whatever two languages you feel most comfortable with - and turn them into nice and readable APIs. Bonus points for implementing unit testing or additional nifty features.
 
-Your applications must expose the same external interface as the original application (same commands and arguments), and must be functional. **You must use at least two separate families of languages** - we don't want one-trick devs in here! For example, you can complete a version in Java and C# or Python and Ruby, but you cannot complete a version simply in Javascript and Dogescript.
+Your applications must expose the same external interface as the original application (same commands and arguments), and must be functional. **You must use at least two separate families of languages** - we don't want one-trick unicorns in here! For example, you can complete a version in Java and C# or Python and Ruby, but you cannot complete a version simply in Javascript and Dogescript.
 
 Good luck!
