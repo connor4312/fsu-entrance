@@ -1,4 +1,4 @@
-#FSU Entrance "Exam"
+#FSU Entrance "Exam" ![](http://img.shields.io/badge/unicorn-approved-ff69b4.svg)
 
 Hello developer, and thanks for your interest in applying to FSU. We have a task for you (aren't you lucky?). Contained within the subdirectories are ugly CLI programs in a variety of languages, that provide an API for basic geolocation based on the first thirty entries in the MaxMind Lite database, in `/source.json`.
 
